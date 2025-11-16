@@ -1,0 +1,134 @@
+/* html, body {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 1px;
+} */
+
+.container {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.panel {
+    flex: 1;
+    padding: 20px;
+    border: 2px solid #999;
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 8px 14px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.info {
+    margin-top: 10px;
+    padding: 10px;
+    height: 180px;
+    overflow-y: auto;
+    background: #eee;
+    border-radius: 6px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f3e9;
+    margin: 0;
+    padding: 20px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.block {
+    flex: 1;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+}
+
+#coffeeBlock {
+    background: linear-gradient(135deg, #d7b899, #b7926b);
+}
+
+#multiBlock {
+    background: linear-gradient(135deg, #c8efc5, #a5d19f);
+}
+
+h2 {
+    margin-top: 0;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.15);
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+button:hover {
+    filter: brightness(1.1);
+    transform: scale(1.05);
+}
+
+.coffeeBtn {
+    background: #6b3e1d;
+    color: white;
+}
+
+.multiBtn {
+    background: #3b8c3b;
+    color: white;
+}
+
+.stopBtn {
+    background: #c62828;
+    color: white;
+}
+
+.infoBox {
+    background: rgba(255, 255, 255, 0.75);
+    height: 200px;
+    overflow-y: auto;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 10px;
+    /* border-left: 3px solid #00000033; */
+}
